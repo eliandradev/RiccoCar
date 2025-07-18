@@ -279,6 +279,12 @@
         align-items: baseline;
     }
 
+    main section.content__location iframe{
+    
+    height: 300px;
+}
+ 
+
     main section.content__atendiment {
         padding: 20px;
         display: flex;
