@@ -17,10 +17,10 @@
     <!-- Menu -->
     <header>
 
-        <img src="Assets/img/Logo_RiccoCar.jpeg" alt="">
 
         <nav>
             <ul>
+                <img src="Assets/img/Logo_RiccoCar.jpeg" alt="">
                 <li><a href="#service">Serviços</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
@@ -31,18 +31,20 @@
     <main>
         <section class="content__banner">
             <h1>Bem-vindo à RiccoCar</h1>
-            <h1>Atendimento especializado para todos os tipos de carros.</h1>
+            <h2>Atendimento especializado para todos os tipos de carros.</h2>
             <div class="content__img">
                 <img src="Assets/img/Foto_Cars_editada.png" alt="">
                 <h1>Da Nostalgia a Inovação</h1>
             </div>
         </section>
-        <section class="content__sobre">
+        <section class="container__sobre">
             <img src="Assets/img/Logo_RiccoCar.jpeg" alt="">
+            <div class="content__sobre">
             <h1>Sobre nós</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aperiam, nam amet distinctio iusto, quasi
                 suscipit, quo facere dolorem neque fuga adipisci? Neque fugit magnam omnis velit. Soluta, laudantium
                 sit.</p>
+            </div>
         </section>
 
         <section id="service" class="content__service">
@@ -52,7 +54,7 @@
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
-                                <img src="Assets/img/injeção.png" width="20%" alt="">
+                                <img src="Assets/img/injecao-eletronica.jpg" width="20%" alt="">
                                 <h2>Injeção Eletrônica</h2>
                             </div>
                             <div class="card-back">
@@ -66,7 +68,7 @@
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
-                                <img src="Assets/img/freios.png" width="20%" alt="">
+                                <img src="Assets/img/freios1.jpg" width="20%" alt="">
                                 <h2>Freios</h2>
                             </div>
                             <div class="card-back">
@@ -80,7 +82,7 @@
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
-                                <img src="Assets/img/suspensao.png" width="20%" alt="">
+                                <img src="Assets/img/suspensao-de-um-carro.jpeg" width="20%" alt="">
                                 <h2>Suspensão</h2>
                             </div>
                             <div class="card-back">
@@ -94,7 +96,7 @@
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
-                                <img src="Assets/img/motor.png" width="20%" alt="">
+                                <img src="Assets/img/motor.jpg" width="20%" alt="">
                                 <h2>Motor</h2>
                             </div>
                             <div class="card-back">
@@ -108,8 +110,9 @@
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
-                                <img src="Assets/img/scanner.png" width="20%" alt="">
+                                <img src="Assets/img/raster.jpg" width="20%" alt="">
                                 <h2>Scanneamento</h2>
+
                             </div>
                             <div class="card-back">
                                 <p>Leitura de códigos de falhas com scanner automotivo.</p>
@@ -122,7 +125,7 @@
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
-                                <img src="Assets/img/arrefecimento.png" width="20%" alt="">
+                                <img src="Assets/img/sistema-de-arrefecimento-automotivo.jpg" width="20%" alt="">
                                 <h2>Arrefecimento</h2>
                             </div>
                             <div class="card-back">
@@ -133,10 +136,10 @@
                 </div>
             </div>
             <div class="button">
-            <button><img src="Assets/img/whatsapp.png" width="10%" alt=""><a
-                    href="https://wa.me/5515997384494?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio"
-                    target="_blank">Consulte demais serviços</a></button>
-                    </div>
+                <button><img src="Assets/img/whatsapp.png" width="10%" alt=""><a
+                        href="https://wa.me/5515997384494?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio"
+                        target="_blank">Consulte demais serviços</a></button>
+            </div>
         </section>
         <section class="content__location">
             <div class="content__text">
@@ -152,22 +155,27 @@
                 width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <section class="content__atendiment">
-            <h1>Horário de Atendimento</h1>
-            <p>Segunda a Sexta: 08:00 - 18:00</p>
-            <p>Sábado: 08:00 - 14:00</p>
-        </section>
-        <section id="contact" class="contact">
-            <h1>contatos</h1>
-            <div class="content__text">
-                <i class="fa-solid fa-phone" style="color: #74C0FC;"></i>
-                <p>Phone: <a href="tel:+5515997384494">+55 15 99738-4494</a></p>
+        <section class="container__information">
+            <div class="content__atendiment">
+                <h1>Horário de Funcionamento</h1>
+                <p>Segunda a Sexta: 08:00 - 18:00</p>
+                <p>Sábado: 08:00 - 14:00</p>
             </div>
-            <div class="content__text">
-                <i class="fa-solid fa-envelope" style="color: #74C0FC;"></i>
-                <p>Email: <a href="mailto:riccocar@example.com">riccocar@example.com</a></p>
+            <div class="contact">
+                <h1>
+                    Contatos
+                </h1>
+                <div class="content__text">
+                    <i class="fa-solid fa-phone" style="color: #74C0FC;"></i>
+                    <p>Phone: <a href="tel:+5515997384494">+55 15 99738-4494</a></p>
+                </div>
+                <div class="content__text">
+                    <i class="fa-solid fa-envelope" style="color: #74C0FC;"></i>
+                    <p>Email: <a href="mailto:riccocar@example.com">riccocar@example.com</a></p>
+                </div>
             </div>
         </section>
+
         <footer>
             <p> © 2025.Desenvolvido por EliAndradev
                 Todos os Direitos Reservados a RiccoCar</p>
