@@ -16,28 +16,50 @@
 
     <!-- Menu -->
     <header>
+  <nav class="navbar" role="navigation" aria-label="Menu principal">
+    <a href="#" class="navbar__logo" aria-label="Página inicial">
+      <img src="Assets/img/Ricco.png" alt="Logo RiccoCar" />
+    </a>
 
+    <!-- <button class="navbar__toggle" aria-controls="navbar-menu" aria-expanded="false" aria-label="Abrir menu">
+      <span class="navbar__hamburger"></span>
+    </button> -->
 
-        <nav>
-            <ul>
-                <img src="Assets/img/Logo_RiccoCar.jpeg" alt="">
-                <li><a href="#service">Serviços</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
+    <ul class="navbar__menu" id="navbar-menu">
+      <li class="navbar__item"><a href="#service" class="navbar__link">Serviços</a></li>
 
-    </header>
+      <!-- <li class="navbar__item navbar__dropdown">
+        <button aria-haspopup="true" aria-expanded="false" class="navbar__link navbar__dropdown-toggle">
+          Produtos
+        </button>
+         <ul class="navbar__dropdown-menu">
+          <li><a href="#prod1" class="navbar__dropdown-link">Produto 1</a></li>
+          <li><a href="#prod2" class="navbar__dropdown-link">Produto 2</a></li>
+          <li><a href="#prod3" class="navbar__dropdown-link">Produto 3</a></li>
+        </ul> -->
+      <!-- </li>  -->
+
+      <li class="navbar__item"><a href="#about" class="navbar__link">Sobre</a></li>
+      <li class="navbar__item"><a href="#contact" class="navbar__link">Contato</a></li>
+
+      <li class="navbar__item">
+        <a  href="https://wa.me/5515997384494?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio" class="navbar__btn">Solicitar Orçamento</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
 
     <main>
         <section class="content__banner">
             <h1>Bem-vindo à RiccoCar</h1>
             <h2>Atendimento especializado para todos os tipos de carros.</h2>
             <div class="content__img">
-                <img src="Assets/img/Foto_Cars_editada.png" alt="">
-                <h1>Da Nostalgia a Inovação</h1>
+                <img src="Assets/img/motorB.png" alt="">
+                <h2 class="typing-effect">Da Nostalgia a Inovação</h2>
             </div>
         </section>
-        <section class="container__sobre">
+        <section class="container__sobre" id="about">
             <img src="Assets/img/Logo_RiccoCar.jpeg" alt="">
             <div class="content__sobre">
             <h1>Sobre nós</h1>
@@ -161,7 +183,7 @@
                 <p>Segunda a Sexta: 08:00 - 18:00</p>
                 <p>Sábado: 08:00 - 14:00</p>
             </div>
-            <div class="contact">
+            <div class="contact" id="contact">
                 <h1>
                     Contatos
                 </h1>
