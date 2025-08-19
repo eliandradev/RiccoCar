@@ -77,8 +77,18 @@
         }
 
         100% {
-            border-color: white;
+            /* border-color: white; */
         }
+    }
+
+    .content__img img {
+
+        height: 78%;
+        width: 100%;
+    }
+
+    .content__banner {
+        width: 100%;
     }
 
     /* SOBRE */
@@ -118,7 +128,7 @@
         padding: 30px 0;
         gap: 0;
     }
-   
+
 
     .service__item {
         flex: 1 1 calc(33.33% - 40px);

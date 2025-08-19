@@ -194,7 +194,7 @@ header {
   transform: translate(-50%, -50%);
   font-family: 'Bebas Neue', cursive, sans-serif;
   font-size: clamp(2rem, 6vw, 4rem);
-  color: white;
+  /* color: white; */
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px 30px;
   border-radius: 12px;
@@ -223,7 +223,7 @@ header {
     border-color: transparent;
   }
   100% {
-    border-color: white;
+    /* border-color: white; */
   }
 }
 
